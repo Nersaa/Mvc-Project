@@ -88,20 +88,34 @@ Python add_test_data.py
 6. Uruchom aplikację:
 Python run.py
 7. Otwórz przeglądarkę i przejdź pod adres:
-https://127.0.0.1:5000
+
+8. https://127.0.0.1:5000
+
 Kod Źródłowy Aplikacji
+
 ⦁	Wszystkie pliki źródłowe znajdują się w katalogu app/:
+
 ⦁	models/ – modele danych (Book, Author, Person, Borrowing, Review)
+
 ⦁	controllers/ – logika aplikacji
+
 ⦁	templates/ – szablony HTML
+
 ⦁	static/ – pliki CSS/JS
+
 ⦁	Pliki pomocnicze: config.py, init_db.py, add_test_data.py, run.py, requirements.txt1.
+
+
 Plik z Przykładowymi Danymi Wejściowymi
+
 Aby załadować przykładowe dane do bazy, uruchom:
+
 bash
+
 python add_test_data.py
 
-Dane obejmują przykładowe książki, autorów, osoby i recenzje1.
+Dane obejmują przykładowe książki, autorów, osoby i recenzje
+
 Konfiguracja Docker
 1. Zbuduj obraz Docker: 
 
